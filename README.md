@@ -4,24 +4,20 @@
 
 This repository has been set-up with support for Tailwind CSS. Please follow the setup instructions below to use the boilerplate correctly:
 
-<br>
-
 1. Upon cloning the repository, go into the project directory and Install the required dev-dependencies by running
 
    ```
        npm install
    ```
 
-<br>
+2. To start using the project, run the watch command. This would compile your `input.css` file to `output.css` in the `dist` folder.
 
-2.  To start using the project, run the watch command. This would compile your `input.css` file to `output.css` in the `dist` folder.
+   ```
+       npm run tailwind:watch
+   ```
 
-    ```
-        npm run tailwind:watch
-    ```
-
-    This starts the Tailwind CLI build process<br>
-    **Note: You still need to use the live-server (Go Live) extension to preview your HTML. To stop the watch-mode simply press `ctrl + c`**
+   This starts the Tailwind CLI build process<br>
+   **Note: You still need to use the live-server (Go Live) extension to preview your HTML. To stop the watch-mode simply press `ctrl + c`**
 
 ---
 
@@ -43,7 +39,7 @@ Listing should:
 - be responsive and layout of the components should adjust as well when needed.
 - contain 3+ cards to reflect the responsive behaviour of the layout.
 
-Your demo page should explicitly contain a variant of the card when the item is added to favourite.
+Your demo page should **explicitly demonstrate** a variant of the card when the item is added to favourite.
 
 ## Bonuses
 
