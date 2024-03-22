@@ -8,7 +8,7 @@ This repository has been set-up with support for Tailwind CSS. Please follow the
 
 1. Upon cloning the repository, go into the project directory and Install the required dev-dependencies by running
 
-   ```bash
+   ```
        npm install
    ```
 
@@ -16,7 +16,7 @@ This repository has been set-up with support for Tailwind CSS. Please follow the
 
 2.  To start using the project, run the watch command. This would compile your `input.css` file to `output.css` in the `dist` folder.
 
-    ```bash
+    ```
         npm run tailwind:watch
     ```
 
