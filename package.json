@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple Tailwind CSS boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
